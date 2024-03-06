@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0px;
+}
+
+
+
+/* Add a black background color to the top navigation */
+
+.maincontainer{
+  margin:auto;
+  width: 50%;
+}
+
+
+.topnav {
+  background-color: #212121;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+.topnav img{
+    width: 40px;
+    float: left;
+    padding: 14px 16px;
+    cursor:pointer;
+}
+
+.topnav a:hover {
+    background-color: #fff;
+    color: #000;
+}
+.topnav input{
+  float: right;
+  padding:12px 14px;
+  margin:8px;
+
+}
+.container input:hover{
+  background-color: #000;
+  color: #fff;
+}
+.container{
+  padding:60px 65px;
+  background-color: #9acd32;
+}
+.container h1{
+  font-size: 60px;
+  color:#adff2f;
+}
+.container p{
+color: #a7ef2f;
+}
+.container input{
+  cursor:pointer;
+  border-radius: 7px;
+  padding: 20px;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.section{
+  padding:20px;
+}
+.section h1{
+  padding:2px;
+  border-bottom: 1px solid black;
+}
+.section p{
+  padding-top: 15px;
+  font-size: 16px;
+  color:#8e8e8e;
+}
+.section span{
+  color: #aaaaaa;
+  font-size: 23px;
+}
+
+ 
+.grid-container1{
+  display: flex;
+  width:100%;
+
+
+}
+.grid-container1 .column{
+  flex-basis:100%;
+}
+.grid-container1 .column > p{
+  background-color:#eeeeee;
+  margin-right: 20px;
+  height:300px;
+  text-align-last: center;
+  color: #aaaaaa;
+  font-size: 60px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  padding: 119px 0px;
+}
+.grid-container1 > .column:nth-child(3) > p {
+  margin-right: 0;
+}
+.grid-container1 .column > span{
+  color:#2f78b6;
+  font-size: 26px;
+}
+span.column-star {
+  font-size: 30px;
+}
+
